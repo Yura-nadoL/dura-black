@@ -1,0 +1,19 @@
+.title {
+   @media (min-width: $pc) {
+      font-size: calc(var(--index) * 6);
+   }
+
+   @media (max-width: $pc) {
+      font-size: calc(60px + (180 - 60) * ((100vw - 320px) / (1320 - 320)));
+      font-weight: 300;
+      letter-spacing: -9px;
+      line-height: 1.1;
+   }
+
+   @media (max-width: $tablet) {
+      letter-spacing: -3px;
+   }
+}
+.yl {
+   color: $colorYellow;
+}

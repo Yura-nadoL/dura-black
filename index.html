@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dura Black</title>
+
+   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+   <link rel="manifest" href="favicon/site.webmanifest">
+
+   <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css">
+   <link rel="stylesheet" href="libs/gallery/lightgallery.css">
+   <link rel="stylesheet" href="libs/gallery/lg/lg-thumbnail.css">
+   <link rel="stylesheet" href="css/style.css">
+
+   <script defer src="libs/swiper/swiper-bundle.min.js"></script>
+   <script defer src="libs/gallery/lightgallery.min.js"></script>
+   <script defer src="libs/gallery/lg/lg-thumbnail.min.js"></script>
+   <script defer src="libs/tabs/tabs.js"></script>
+   <script defer src="libs/spollers/spollers.js"></script>
+   <script defer src="libs/dinamic-adapt/dinamic-adapt.js"></script>
+   <script defer src="js/script.js"></script>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <div class="header__inner">
+               <div class="header__logo logo-header">
+                  <div class="logo-header__box">
+                     <a class="logo-header__link">
+                        <img src="images/icon/logo-footer.svg" alt="logo-dura">
+                     </a>
+                  </div>
+               </div>
+               <button class="header__burger"><span></span></button>
+               <nav class="header__nav nav-header">
+                  <ul class="nav-header__list">
+                     <li class="nav-header__item"><a href="#" class="nav-header__link">Home</a></li>
+                     <li class="nav-header__item"><a href="#" class="nav-header__link item-active">Buy DuraBeats™
+                           Pro</a></li>
+                     <li class="nav-header__item"><a href="#" class="nav-header__link">Contact Us</a></li>
+                  </ul>
+               </nav>
+               <div class="header__overflow"></div>
+               <div class="header__box box-header">
+                  <div class="box-header__block">
+                     <div class="box-header__search">
+                        <div class="box-header__box">
+                           <div class="box-header__icon">
+                              <img src="images/icon/search.svg" alt="search-icon">
+                           </div>
+                           <form action="#" class="box-header__form form-header">
+                              <div class="form-header__block">
+                                 <input type="search" name="form[]" class="form-header__input" autocomplete="off">
+                                 <button type="reset" class="form-header__reset"></button>
+                              </div>
+                              <button type="submit" class="form-header__button"><img src="images/icon/search.svg"
+                                    alt="search-btn"></button>
+                           </form>
+                        </div>
+                     </div>
+                     <div class="box-header__cart">
+                        <a href="#">
+                           <img src="images/icon/header-cart.svg" alt="cart-icon">
+                           <span>1</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <section class="main__pro pro">
+            <div class="pro__container">
+               <div class="pro__inner">
+                  <div class="pro__label label-pro">
+                     <h2 class="label-pro__title">Dura Beats <span class="yl">Pro®</span></h2>
+                     <div class="label-pro__btn">
+                        <a href="#">FREE SHIPPING ON ORDERS OVER $70</a>
+                     </div>
+                  </div>
+                  <div class="pro__box box-pro">
+                     <div class="box-pro__value value-box-pro">
+                        <p class="value-box-pro__text">DuraBeats uses advanced bone conduction and moving coil acoustic
+                           technology <span class="yl">to turn any surface into a booming sound!</span></p>
+                        <div class="value-box-pro__box">
+                           <div class="value-box-pro__btn">
+                              <a href="#">Discount 90%</a>
+                           </div>
+                           <h3 class="value-box-pro__title">Turn Anything
+                              Into A Speaker</h3>
+                        </div>
+                     </div>
+                     <div class="box-pro__slider slider-box-pro">
+                        <div class="slider-box-pro__slider swiper">
+                           <div class="slider-box-pro__wrapper swiper-wrapper">
+                              <div class="slider-box-pro__slide swiper-slide">
+                                 <div class="slider-box-pro__item">
+                                    <div class="slider-box-pro__image-left">
+                                       <img src="images/pictures/image1.png" alt="image">
+                                    </div>
+                                    <div class="slider-box-pro__image-right">
+                                       <img src="images/pictures/image1.png" alt="image">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="slider-box-pro__slide swiper-slide">
+                                 <div class="slider-box-pro__item">
+                                    <div class="slider-box-pro__image-left">
+                                       <img src="images/pictures/image2.png" alt="image">
+                                    </div>
+                                    <div class="slider-box-pro__image-right">
+                                       <img src="images/pictures/image2.png" alt="image">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <video class="pro__video" loop autoplay muted src="video/smoke-background-optimized.mp4"></video>
+         </section>
+         <section class="main__panel panel">
+            <div class="panel__container">
+               <div class="panel__inner">
+                  <div class="panel__gallery gallery-panel">
+                     <div class="gallery-panel__inner">
+                        <div class="gallery-panel__row">
+                           <div class="gallery-panel__slider swiper">
+                              <div id="lightgallery" class="gallery-panel__wrapper swiper-wrapper">
+                                 <div class="gallery-panel__slide swiper-slide">
+                                    <div data-src="images/pictures/pic-1.png" class="gallery-panel__image">
+                                       <img src="images/pictures/pic-1.png" alt="image">
+                                    </div>
+                                 </div>
+                                 <div class="gallery-panel__slide swiper-slide">
+                                    <div data-src="images/pictures/pic-2.png" class="gallery-panel__image">
+                                       <img src="images/pictures/pic-2.png" alt="image">
+                                    </div>
+                                 </div>
+                                 <div class="gallery-panel__slide swiper-slide">
+                                    <div data-src="images/pictures/pic-3.png" class="gallery-panel__image">
+                                       <img src="images/pictures/pic-3.png" alt="image">
+                                    </div>
+                                 </div>
+                                 <div class="gallery-panel__slide swiper-slide">
+                                    <div data-src="images/pictures/pic-4.png" class="gallery-panel__image">
+                                       <img src="images/pictures/pic-4.png" alt="image">
+                                    </div>
+                                 </div>
+                                 <div class="gallery-panel__slide swiper-slide">
+                                    <div data-src="images/pictures/pic-5.png" class="gallery-panel__image">
+                                       <img src="images/pictures/pic-5.png" alt="image">
+                                    </div>
+                                 </div>
+                                 <div class="gallery-panel__slide swiper-slide">
+                                    <div data-src="images/pictures/pic-6.png" class="gallery-panel__image">
+                                       <img src="images/pictures/pic-6.png" alt="image">
+                                    </div>
+                                 </div>
+                                 <div class="gallery-panel__slide swiper-slide">
+                                    <div data-src="images/pictures/pic-7.png" class="gallery-panel__image">
+                                       <img src="images/pictures/pic-7.png" alt="image">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-button-prev"><img src="images/icon/arrow.svg" alt="arrow"></div>
+                              <div class="swiper-button-next"><img src="images/icon/arrow.svg" alt="arrow"></div>
+                           </div>
+                           <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="gallery-small__slider swiper">
+                           <div class="gallery-small__wrapper swiper-wrapper">
+                              <div class="gallery-small__slide swiper-slide">
+                                 <div class="gallery-small__image">
+                                    <img src="images/pictures/pic-1.png" alt="image">
+                                 </div>
+                              </div>
+                              <div class="gallery-small__slide swiper-slide">
+                                 <div class="gallery-small__image">
+                                    <img src="images/pictures/pic-2.png" alt="image">
+                                 </div>
+                              </div>
+                              <div class="gallery-small__slide swiper-slide">
+                                 <div class="gallery-small__image">
+                                    <img src="images/pictures/pic-3.png" alt="image">
+                                 </div>
+                              </div>
+                              <div class="gallery-small__slide swiper-slide">
+                                 <div class="gallery-small__image">
+                                    <img src="images/pictures/pic-4.png" alt="image">
+                                 </div>
+                              </div>
+                              <div class="gallery-small__slide swiper-slide">
+                                 <div class="gallery-small__image">
+                                    <img src="images/pictures/pic-5.png" alt="image">
+                                 </div>
+                              </div>
+                              <div class="gallery-small__slide swiper-slide">
+                                 <div class="gallery-small__image">
+                                    <img src="images/pictures/pic-6.png" alt="image">
+                                 </div>
+                              </div>
+                              <div class="gallery-small__slide swiper-slide">
+                                 <div class="gallery-small__image">
+                                    <img src="images/pictures/pic-7.png" alt="image">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="panel__price price-panel">
+                     <div class="price-panel__rating">
+                        <img src="images/icon/star.svg" alt="star">
+                        <span>(Rates 5.0)</span>
+                     </div>
+                     <div class="price-panel__box box-price">
+                        <div class="box-price__label label-box-price">
+                           <h3 class="label-box-price__title">DuraBeats® Pro - Turn Anything Into A Speaker</h3>
+                           <div class="label-box-price__box box-label">
+                              <div class="box-label__num yl">£3</div>
+                              <div class="box-label__discounts discounts-label">
+                                 <div class="discounts-label__liner">£30</div>
+                                 <div class="discounts-label__btn">
+                                    <a href="#">Discount 90%</a>
+                                 </div>
+                                 <p class="discounts-label__text">Merchandise is sold by the piece with no bulk
+                                    discounts.</p>
+                              </div>
+                           </div>
+                           <div class="label-box-price__choice choice-label">
+                              <div class="choice-label__color color-choice-label">
+                                 <div class="color-choice-label__titles">
+                                    <div class="color-choice-label__subtitle">Select color:</div>
+                                    <div class="color-choice-label__title yl">Silver</div>
+                                 </div>
+                                 <div class="color-choice-label__check check-color">
+                                    <input type="radio" name="form[]" class="check-color__light">
+                                    <input type="radio" name="form[]" class="check-color__dark">
+                                 </div>
+                              </div>
+                              <div class="choice-label__description description-choice-label">
+                                 <p class="description-choice-label__text">There's a liquidation sale going on and
+                                    <span class="yl">186 pieces left</span>
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="box-price__value value-box-price">
+                           <div class="value-box-price__buttons buttons-value">
+                              <div class="buttons-value__cart">
+                                 <a href="#">
+                                    Add to cart
+                                    <img src="images/icon/cart.svg" alt="cart">
+                                 </a>
+                              </div>
+                              <div class="buttons-value__buy">
+                                 <a href="#">
+                                    Buy with
+                                    <img src="images/icon/shop-pay.svg" alt="shop-pay">
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="value-box-price__comp comp-value">
+                              <div class="comp-value__credit-card">
+                                 <div class="comp-value__img">
+                                    <img src="images/pictures/credit-card.png" alt="credit-card">
+                                 </div>
+                                 <p class="comp-value__text">Guaranteed safe & secure checkout</p>
+                              </div>
+                              <div class="comp-value__delivery delivery-comp-value">
+                                 <div class="delivery-comp-value__subtitle">Estimated Delivery:</div>
+                                 <div class="delivery-comp-value__data">Aug 26 - Aug 31</div>
+                                 <div class="delivery-comp-value__demo">
+                                    <img src="images/icon/icon-1.svg" alt="icon">
+                                    <p>Try it risk-free for 30 days. If you're not totally in love with the product, we
+                                       will refund you 100%.</p>
+                                 </div>
+                              </div>
+                              <div class="comp-value__image">
+                                 <img src="images/pictures/comp.png" alt="comp">
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__work work">
+            <div class="work__inner">
+               <div class="work__container">
+                  <div class="work__row">
+                     <div class="work__titles titles-work">
+                        <h2 class="titles-work__title title">How it <span class="yl">works</span></h2>
+                     </div>
+                     <div class="work__content content-work">
+                        <div class="content-work__col">
+                           <p class="content-work__text">DuraBeats uses advanced bone conduction and moving coil
+                              acoustic technology to turn any surface into a booming sound!</p>
+                        </div>
+                        <div class="content-work__col">
+                           <p class="content-work__text">Whether you're at home, on the go, or outdoors, this compact
+                              and durable speaker delivers powerful, dynamic audio that will elevate your listening
+                              experience.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="work__image image-work">
+                        <div class="image-work__row">
+                           <div class="image-work__left">
+                              <img src="images/pictures/image3.png" alt="image">
+                           </div>
+                           <div class="image-work__right">
+                              <img src="images/pictures/image3.png" alt="image">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__features features">
+            <div class="features__container">
+               <div class="features__inner">
+                  <div class="features__item item-title">
+                     <h3 class="item-title__title">Key Features</h3>
+                     <p class="item-title__text">DuraBeats utilizes bone conduction and moving coil acoustic tech,
+                        transforming surfaces into powerful sound sources. Elevate your audio experience with this
+                        compact, durable speaker.</p>
+                  </div>
+                  <div class="features__item features__item--frame item-bluetooth">
+                     <div class="features__icon">
+                        <img src="images/icon/bluetooth.svg" alt="bluetooth">
+                     </div>
+                     <p class="features__text">Easily Connect With Bluetooth</p>
+                  </div>
+                  <div class="features__item features__item--frame item-connected">
+                     <div class="features__icon">
+                        <img src="images/icon/connected.svg" alt="connected">
+                     </div>
+                     <p class="features__text">3D Stereo Experience When 2 Speakers Are Connected</p>
+                  </div>
+                  <div class="features__item features__item--frame item-charger">
+                     <div class="features__icon">
+                        <img src="images/icon/charger.svg" alt="charger">
+                     </div>
+                     <p class="features__text">Up To 6 Hours Of Listening Time</p>
+                  </div>
+                  <div class="features__item features__item--frame item-waterproof">
+                     <div class="features__icon">
+                        <img src="images/icon/waterproof.svg" alt="waterproof">
+                     </div>
+                     <p class="features__text">IPX4 Water-Resistant & Durable</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__comment comment">
+            <div class="comment__titles">
+               <div class="comment__container">
+                  <h2 class="comment__title title">
+                     <span class="yl">Loved</span> By Thousands
+                  </h2>
+               </div>
+            </div>
+            <div class="comment__box">
+               <div class="comment__container">
+                  <div class="comment__row">
+                     <div class="comment__item item-comment">
+                        <div class="item-comment__avatar">
+                           <div class="item-comment__user-image">
+                              <img src="images/pictures/avatar-1.jpg" alt="avatar-image">
+                           </div>
+                           <h4 class="item-comment__title yl">Love This Speaker</h4>
+                        </div>
+                        <p class="item-comment__text">"I've always wanted a speaker but most brands were well above
+                           $100 which is too much. I got this speaker since it was affordable and had lots of great
+                           reviews. Honestly it's the best thing I bought, sounds awesome despite it's size and love
+                           how portable it is"</p>
+                        <div class="item-comment__value">Chiara with Silver</div>
+                        <div class="item-comment__before">
+                           <img src="images/icon/comment.svg" alt="comment-icon">
+                        </div>
+                     </div>
+                     <div class="comment__item item-comment">
+                        <div class="item-comment__avatar">
+                           <div class="item-comment__user-image">
+                              <img src="images/pictures/avatar-2.jpg" alt="avatar-image">
+                           </div>
+                           <h4 class="item-comment__title yl">Couldn't Believe It</h4>
+                        </div>
+                        <p class="item-comment__text">"Saw a video that saids this device turns anything into a
+                           speaker. Honestly I was super skeptical but wanted to see if it actually works. Tried it
+                           and man this sounds just like in the video, super loud especially if you have two going at
+                           the same time."</p>
+                        <div class="item-comment__value">Tristan with 2 Pack (Silver)</div>
+                        <div class="item-comment__before">
+                           <img src="images/icon/comment.svg" alt="comment-icon">
+                        </div>
+                     </div>
+                     <div class="comment__item item-comment">
+                        <div class="item-comment__avatar">
+                           <div class="item-comment__user-image">
+                              <img src="images/pictures/avatar-3.jpg" alt="avatar-image">
+                           </div>
+                           <h4 class="item-comment__title yl">Coolest Speaker Ever</h4>
+                        </div>
+                        <p class="item-comment__text">"I was looking for a new speaker because mine was not portable
+                           at all and it was a pain carrying it around. This speaker literally fits in my pocket and
+                           sooo light. Plus my friends think it's cool when I show them it's not just a normal
+                           speaker"</p>
+                        <div class="item-comment__value">Hannah with Black & Silver</div>
+                        <div class="item-comment__before">
+                           <img src="images/icon/comment.svg" alt="comment-icon">
+                        </div>
+                     </div>
+                     <div class="comment__item item-comment">
+                        <div class="item-comment__avatar">
+                           <div class="item-comment__user-image">
+                              <img src="images/pictures/avatar-4.jpg" alt="avatar-image">
+                           </div>
+                           <h4 class="item-comment__title yl">Perfect For Travelling</h4>
+                        </div>
+                        <p class="item-comment__text">"This is the best, literally takes no space in my suitcase
+                           unlike my old speaker I used to have. Took this on my trip to Europe this year and it was
+                           so handy"</p>
+                        <div class="item-comment__value">Chelsea With Silver</div>
+                        <div class="item-comment__before">
+                           <img src="images/icon/comment.svg" alt="comment-icon">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__pick pick">
+            <div class="pick__inner">
+               <div class="pick__titles">
+                  <div class="pick__container">
+                     <h2 class="pick__title title">Why <span class="yl">You'll Love</span> DuraBeats Pro?</h2>
+                  </div>
+               </div>
+               <div class="pick__row">
+                  <div class="pick__content content-pick">
+                     <div class="content-pick__inner">
+                        <div class="content-pick__item item-content-pick">
+                           <div class="item-content-pick__container">
+                              <div class="item-content-pick__inner">
+                                 <div class="item-content-pick__image">
+                                    <img src="images/pictures/image4.jpg" alt="image">
+                                 </div>
+                                 <div class="item-content-pick__box box-item-content">
+                                    <div class="box-item-content__num">
+                                       <img src="images/icon/icon-num1.svg" alt="icon-num">
+                                    </div>
+                                    <h4 class="box-item-content__title yl">Playing Music Has Never Been This Fun</h4>
+                                    <p class="box-item-content__text">Our speaker creates unique sound depending on the
+                                       surface it's been placed on. Which means everyday is a new day trying it on new
+                                       surfaces.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="content-pick__item item-content-pick">
+                           <div class="item-content-pick__container">
+                              <div class="item-content-pick__inner">
+                                 <div class="item-content-pick__image">
+                                    <img src="images/pictures/image5.jpg" alt="image">
+                                 </div>
+                                 <div class="item-content-pick__box box-item-content">
+                                    <div class="box-item-content__num">
+                                       <img src="images/icon/icon-num2.svg" alt="icon-num">
+                                    </div>
+                                    <h4 class="box-item-content__title yl">It's Super Affordable</h4>
+                                    <p class="box-item-content__text">Days are over where you need to buy overpriced
+                                       speaker
+                                       to enjoy music. DuraBeats Pro is here to promise elevated listening experience
+                                       without
+                                       the price tag. Hurry! Our sale is ending very soon</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="content-pick__item item-content-pick">
+                           <div class="item-content-pick__container">
+                              <div class="item-content-pick__inner">
+                                 <div class="item-content-pick__image">
+                                    <img src="images/pictures/image6.jpg" alt="image">
+                                 </div>
+                                 <div class="item-content-pick__box box-item-content">
+                                    <div class="box-item-content__num">
+                                       <img src="images/icon/icon-num3.svg" alt="icon-num">
+                                    </div>
+                                    <h4 class="box-item-content__title yl">Take It Anywhere</h4>
+                                    <p class="box-item-content__text">Unlike most 'portable' speakers that are heavy &
+                                       bulky,
+                                       our mini speaker slips right into your pocket. With the included attachement, you
+                                       can
+                                       stick DuraBeats® Pro on virtually any surfaces. Bathroom screens, mirror, kitchen
+                                       bench, car dashboard, you name it, you can enjoy music on any occasion!</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="content-pick__item item-content-pick">
+                           <div class="item-content-pick__container">
+                              <div class="item-content-pick__inner">
+                                 <div class="item-content-pick__image">
+                                    <img src="images/pictures/image7.jpg" alt="image">
+                                 </div>
+                                 <div class="item-content-pick__box box-item-content">
+                                    <div class="box-item-content__num">
+                                       <img src="images/icon/icon-num4.svg" alt="icon-num">
+                                    </div>
+                                    <h4 class="box-item-content__title yl">Try It Risk-Free</h4>
+                                    <p class="box-item-content__text">If you’re not satisfied for any reason, our 30-day
+                                       money
+                                       back guarantee covers you with a 100% refund. This means you can try DuraBeats
+                                       Pro for
+                                       a month, and if you're not totally in love with your speaker , you get your money
+                                       back.
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="pick__slider slider-pick">
+                     <div class="slider-pick__slider swiper">
+                        <div class="slider-pick__wrapper swiper-wrapper">
+                           <div class="slider-pick__slide swiper-slide">
+                              <div class="slider-pick__item">
+                                 <div class="slider-pick__image-left">
+                                    <img src="images/pictures/image8.png" alt="">
+                                 </div>
+                                 <div class="slider-pick__image-right">
+                                    <img src="images/pictures/image8.png" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="slider-pick__slide swiper-slide">
+                              <div class="slider-pick__item">
+                                 <div class="slider-pick__image-left">
+                                    <img src="images/pictures/image9.png" alt="">
+                                 </div>
+                                 <div class="slider-pick__image-right">
+                                    <img src="images/pictures/image9.png" alt="">
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__pair pair">
+            <div class="pair__inner">
+               <div class="pair__titles">
+                  <div class="pair__container">
+                     <h2 class="pair__title title"><span class="yl">Pair</span> DuraBeats</h2>
+                  </div>
+               </div>
+               <div class="pair__container">
+                  <div class="pair__row">
+                     <div class="pair__content content-pair">
+                        <div class="content-pair__col">
+                           <div class="content-pair__subtitle">Pair 2x DuraBeats® Pro = Enjoy 3D Stereo Experience</div>
+                           <div class="content-pair__label yl">A nice bonus!</div>
+                           <p class="content-pair__text">You get free shipping when you buy 2 or more</p>
+                        </div>
+                        <div class="content-pair__box">
+                           <div class="content-pair__image">
+                              <img src="images/pictures/image10.jpg" alt="image">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="pair__table table-pair">
+                        <div class="table-pair__content content-table-pair">
+                           <h3 class="content-table-pair__title">See Why Thousands <span class="yl">Choose</span> Dura
+                              Over Other Speaker Brands</h3>
+                           <p class="content-table-pair__text">Compare the differences of DuraBeats® Pro vs. a
+                              traditional bluetooth speakers</p>
+                        </div>
+                        <div class="table-pair__tables tables-pair-table">
+                           <div class="tables-pair-table__row">
+                              <div class="tables-pair-table__titles items-tables">
+                                 <div class="items-tables__title title-tables">Parameters</div>
+                                 <div class="items-tables__logo logo-tables">
+                                    <div class="logo-tables__icon">
+                                       <img src="images/icon/logo.svg" alt="logo-dura">
+                                    </div>
+                                 </div>
+                                 <div class="items-tables__brands brands-text">Other Speaker Brands</div>
+                              </div>
+                              <div class="tables-pair-table__items items-tables">
+                                 <div class="items-tables__title">Bluetooth Compatible</div>
+                                 <div class="items-tables__logo">
+                                    <svg viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 13.0656L16.3158 27L42 2" stroke="white" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                                 <div class="items-tables__brands">
+                                    <svg viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 13.0656L16.3158 27L42 2" stroke="white" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                              </div>
+                              <div class="tables-pair-table__items items-tables">
+                                 <div class="items-tables__title">Audio Quality</div>
+                                 <div class="items-tables__logo">
+                                    <svg viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 13.0656L16.3158 27L42 2" stroke="white" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                                 <div class="items-tables__brands">
+                                    <svg viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 13.0656L16.3158 27L42 2" stroke="white" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                              </div>
+                              <div class="tables-pair-table__items items-tables">
+                                 <div class="items-tables__title">Affordable</div>
+                                 <div class="items-tables__logo">
+                                    <svg viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 13.0656L16.3158 27L42 2" stroke="white" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                                 <div class="items-tables__brands">
+                                    <svg viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 1.5L28 27.5" stroke="#FF3434" stroke-width="3" />
+                                       <path d="M28 1.5L2 27.5" stroke="#FF3434" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                              </div>
+                              <div class="tables-pair-table__items items-tables">
+                                 <div class="items-tables__title">Portable Design</div>
+                                 <div class="items-tables__logo">
+                                    <svg viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 13.0656L16.3158 27L42 2" stroke="white" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                                 <div class="items-tables__brands">
+                                    <svg viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 1.5L28 27.5" stroke="#FF3434" stroke-width="3" />
+                                       <path d="M28 1.5L2 27.5" stroke="#FF3434" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                              </div>
+                              <div class="tables-pair-table__items items-tables">
+                                 <div class="items-tables__title">100% Satisfaction Guarantee</div>
+                                 <div class="items-tables__logo">
+                                    <svg viewBox="0 0 44 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 13.0656L16.3158 27L42 2" stroke="white" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                                 <div class="items-tables__brands">
+                                    <svg viewBox="0 0 30 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M2 1.5L28 27.5" stroke="#FF3434" stroke-width="3" />
+                                       <path d="M28 1.5L2 27.5" stroke="#FF3434" stroke-width="3" />
+                                    </svg>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__included included">
+            <div class="included__inner">
+               <div class="included__content included-content">
+                  <div class="included-content__titles">
+                     <div class="included-content__container">
+                        <h2 class="included-content__title title">What's <span class="yl">Included</span>?</h2>
+                     </div>
+                  </div>
+                  <div class="included-content__container">
+                     <div class="included-content__buttons">
+                        <a href="#" class="included-content__link">1 x DuraBeats Pro</a>
+                        <a href="#" class="included-content__link">1 x Charging Cable</a>
+                        <a href="#" class="included-content__link">2 x Sticky Attachements</a>
+                        <a href="#" class="included-content__link">1 x Drawstring</a>
+                        <a href="#" class="included-content__link">1 x User Manual</a>
+                     </div>
+                  </div>
+                  <div class="included-content__image included-images">
+                     <div class="included-images__image">
+                        <img src="images/pictures/image11.png" alt="image">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__f-a-q f-a-q">
+            <div class="f-a-q__inner">
+               <div class="f-a-q__titles">
+                  <div class="f-a-q__container">
+                     <h2 class="f-a-q__title title"><span class="yl">Frequently</span> Asked Questions</h2>
+                  </div>
+               </div>
+               <div class="f-a-q__row">
+                  <div data-tabs="767.98" class="f-a-q__tabs tabs-f-a-q">
+                     <nav data-tabs-titles class="tabs-f-a-q__navigation">
+                        <button type="submit" class="tabs-f-a-q__title _tab-active">
+                           <div class="tabs-f-a-q__box">
+                              How do I use this?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              How does this work?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              Is it waterproof?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              Does it come with a warranty?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              How small is it?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              Can I connect of them at once?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              How loud does it get?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              How long is shipping?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              How long does the battery last?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                        <button type="submit" class="tabs-f-a-q__title">
+                           <div class="tabs-f-a-q__box">
+                              What's in the box?
+                              <span>
+                                 <svg viewBox="0 0 21 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path id="Vector 1" d="M19.5 1.5L10.5 10.5L1.5 1.5" stroke-width="3"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </div>
+                        </button>
+                     </nav>
+                     <div data-tabs-body class="tabs-f-a-q__content">
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                        <div class="tabs-f-a-q__body">
+                           <p class="tabs-f-a-q__text">DuraBeats Pro uses bone conduction technology to give you a DIY
+                              customization sound experience. You can test and enjoy different sounds - almost as if
+                              different instruments are being used.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                           <p class="tabs-f-a-q__text">Place it on different surfaces such as guitar, Kraft box, plastic
+                              storage box, photo frames, sports headphones or even dashboards can provide you various
+                              sound effects.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="main__reviews reviews">
+            <div class="reviews__inner">
+               <div class="reviews__box">
+                  <div class="reviews__container">
+                     <div class="reviews__row">
+                        <div class="reviews__titles">
+                           <h2 class="reviews__title title">Customer <span class="yl">Reviews</span></h2>
+                        </div>
+                        <div class="reviews__col col-reviews">
+                           <div class="col-reviews__rating rating-col-reviews">
+                              <div class="rating-col-reviews__icon">
+                                 <img src="images/icon/rating.svg" alt="rating">
+                              </div>
+                              <p class="rating-col-reviews__text">114 reviews</p>
+                           </div>
+                           <div class="col-reviews__buttons buttons-col-reviews">
+                              <div class="buttons-col-reviews__items buttons-col-reviews__items--all items-buttons">
+                                 <button type="button" class="items-buttons__all">All reviews
+                                    <span class="items-buttons__icon">
+                                       <svg viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M9.33764 2.14432L3.44336 8.0386L9.33764 13.9329" stroke-width="4"
+                                             stroke-linecap="round" />
+                                       </svg>
+                                    </span>
+                                 </button>
+                                 <ul class="items-buttons__list">
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Mackenzie
+                                          C.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Melanie
+                                          G.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Isabella
+                                          M.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Brooke
+                                          T.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Jack</a>
+                                    </li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Mackenzie
+                                          C.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Melanie
+                                          G.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Isabella
+                                          M.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Brooke
+                                          T.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Jack</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="buttons-col-reviews__items buttons-col-reviews__items--sort items-buttons">
+                                 <button type="button" class="items-buttons__sort">
+                                    <p>Sort: <span>Most relevant</span></p>
+                                    <span class="items-buttons__icon">
+                                       <svg viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path d="M9.33764 2.14432L3.44336 8.0386L9.33764 13.9329" stroke-width="4"
+                                             stroke-linecap="round" />
+                                       </svg>
+                                    </span>
+                                 </button>
+                                 <ul class="items-buttons__list">
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Mackenzie
+                                          C.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Melanie
+                                          G.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Isabella
+                                          M.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Brooke
+                                          T.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Jack</a>
+                                    </li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Mackenzie
+                                          C.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Melanie
+                                          G.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Isabella
+                                          M.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Brooke
+                                          T.</a></li>
+                                    <li class="items-buttons__item"><a href="#" class="items-buttons__link">Jack</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                              <div class="buttons-col-reviews__btn">
+                                 <a href="#">Write a review</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="reviews__container">
+                  <div class="reviews__sliders sliders-reviews">
+                     <div class="sliders-reviews__slider swiper">
+                        <div class="sliders-reviews__wrapper swiper-wrapper">
+                           <div class="sliders-reviews__slide swiper-slide">
+                              <div class="sliders-reviews__item item-slide">
+                                 <div class="item-slide__image">
+                                    <img src="images/pictures/img-1.jpg" alt="image">
+                                 </div>
+                                 <div class="item-slide__content">
+                                    <div class="item-slide__rating">
+                                       <img src="images/icon/rating.svg" alt="rating">
+                                    </div>
+                                    <div class="item-slide__user">Mackenzie C.</div>
+                                    <p class="item-slide__text">I was a little hesitant to buy from an Instagram ad, but
+                                       this actually works! It sounds SO much better than I expected. I've been using
+                                       this everyday jamming music in the shower. Highly recommend it!!</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sliders-reviews__slide swiper-slide">
+                              <div class="sliders-reviews__item item-slide">
+                                 <div class="item-slide__image">
+                                    <img src="images/pictures/img-2.jpg" alt="image">
+                                 </div>
+                                 <div class="item-slide__content">
+                                    <div class="item-slide__rating">
+                                       <img src="images/icon/rating.svg" alt="rating">
+                                    </div>
+                                    <div class="item-slide__user">Melanie G.</div>
+                                    <p class="item-slide__text">These little things are super coool. They make anything
+                                       into a speaker. I've been taking this with me on my picnic and camping trips. So
+                                       convenient because it's so small it literally fits in my pocket. My friend was so
+                                       shocked when I showed them.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sliders-reviews__slide swiper-slide">
+                              <div class="sliders-reviews__item item-slide">
+                                 <div class="item-slide__image">
+                                    <img src="images/pictures/img-3.jpg" alt="image">
+                                 </div>
+                                 <div class="item-slide__content">
+                                    <div class="item-slide__rating">
+                                       <img src="images/icon/rating.svg" alt="rating">
+                                    </div>
+                                    <div class="item-slide__user">Isabella M.</div>
+                                    <p class="item-slide__text">Didn't expect this tiny speaker to sound so loud!
+                                       Especially if you stick it on hollow surface. Can't wait to take this everywhere
+                                       I go!</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sliders-reviews__slide swiper-slide">
+                              <div class="sliders-reviews__item item-slide">
+                                 <div class="item-slide__image">
+                                    <img src="images/pictures/img-4.jpg" alt="image">
+                                 </div>
+                                 <div class="item-slide__content">
+                                    <div class="item-slide__rating">
+                                       <img src="images/icon/rating.svg" alt="rating">
+                                    </div>
+                                    <div class="item-slide__user">Brooke T.</div>
+                                    <p class="item-slide__text">y'll this speaker is a game changerrr!!! It's a must
+                                       have for travelling.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sliders-reviews__slide swiper-slide">
+                              <div class="sliders-reviews__item item-slide">
+                                 <div class="item-slide__image">
+                                    <img src="images/pictures/img-5.jpg" alt="image">
+                                 </div>
+                                 <div class="item-slide__content">
+                                    <div class="item-slide__rating">
+                                       <img src="images/icon/rating.svg" alt="rating">
+                                    </div>
+                                    <div class="item-slide__user">Jack</div>
+                                    <p class="item-slide__text">The sound is so much better than I expected and it’s fun
+                                       to try different surfaces to see what it will do</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="sliders-reviews__slide swiper-slide">
+                              <div class="sliders-reviews__item item-slide">
+                                 <div class="item-slide__image">
+                                    <img src="images/pictures/img-1.jpg" alt="image">
+                                 </div>
+                                 <div class="item-slide__content">
+                                    <div class="item-slide__rating">
+                                       <img src="images/icon/rating.svg" alt="rating">
+                                    </div>
+                                    <div class="item-slide__user">Brooke T.</div>
+                                    <p class="item-slide__text">y'll this speaker is a game changerrr!!! It's a must
+                                       have for travelling.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="sliders-reviews__scrollbar swiper-scrollbar"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__inner">
+            <div class="footer__container">
+               <div class="footer__row">
+                  <div class="footer__body body-footer">
+                     <div class="body-footer__logo logo-body-footer">
+                        <a href="#" class="logo-body-footer__link">
+                           <img src="images/icon/logo-footer.svg" alt="logo-dura">
+                        </a>
+                     </div>
+                     <p class="body-footer__copy">Copyright © 2023 durabeats | Powered by Shopify | Powered by Debutify
+                     </p>
+                     <div class="body-footer__image">
+                        <img src="images/pictures/footer-credit-card.png" alt="credit-card">
+                     </div>
+                  </div>
+                  <nav data-da=".footer__body,1000,1" class="footer__nav nav-footer">
+                     <div data-spollers="1000,max" class="nav-footer__spollers">
+                        <div class="nav-footer__items">
+                           <button type="button" data-spoller class="nav-footer__title yl">Site Information
+                              <span>
+                                 <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.33764 2.14432L3.44336 8.0386L9.33764 13.9329" stroke-width="4"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </button>
+                           <div class="nav-footer__body">
+                              <ul class="nav-footer__list">
+                                 <li class="nav-footer__item"><a href="#" class="nav-footer__link">Shipping &
+                                       Delivery</a>
+                                 </li>
+                                 <li class="nav-footer__item"><a href="#" class="nav-footer__link">Privacy Policy</a>
+                                 </li>
+                                 <li class="nav-footer__item"><a href="#" class="nav-footer__link">Refund Policy</a>
+                                 </li>
+                                 <li class="nav-footer__item"><a href="#" class="nav-footer__link">Terms of Service</a>
+                                 </li>
+                                 <li class="nav-footer__item"><a href="#" class="nav-footer__link">Contact Us</a></li>
+                                 <li class="nav-footer__item"><a href="#" class="nav-footer__link">About Us</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div data-spollers="1000,max" class="nav-footer__spollers">
+                        <div class="nav-footer__items">
+                           <button type="button" data-spoller class="nav-footer__title yl">Site Information
+                              <span>
+                                 <svg width="12" height="16" viewBox="0 0 12 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.33764 2.14432L3.44336 8.0386L9.33764 13.9329" stroke-width="4"
+                                       stroke-linecap="round" />
+                                 </svg>
+                              </span>
+                           </button>
+                           <div class="nav-footer__body">
+                              <ul class="nav-footer__list">
+                                 <li class="nav-footer__item">Monday - Friday</li>
+                                 <li class="nav-footer__item">9am - 10pm AEDT</li>
+                                 <li class="nav-footer__item"><a href="emailto:support@durabeats.co"
+                                       class="nav-footer__link">email: support@durabeats.co</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>
